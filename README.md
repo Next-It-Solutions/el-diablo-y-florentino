@@ -1,15 +1,33 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# El Diablo y Florentino
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+Landing estática de muestra para la exposición de Planificación de negocios. Reutiliza la identidad y las imágenes del PDF final del equipo.
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+## Ver localmente
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+Con Ruby y Bundler: `bundle install` y `bundle exec jekyll serve`.
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+Jekyll procesa `index.md`, aplica la plantilla `_layouts/home.html` y genera `_site/index.html`. Para ver la página correctamente, usá el servidor de Jekyll; abrir los archivos fuente directamente no procesa las plantillas Liquid.
+
+## Contenido
+
+Portada, juego, capturas ampliables, lore, pacto, comunidad, apoyos, press kit descargable y FAQ. El menú se adapta a celulares y la galería admite teclado y Escape. Las fuentes se sirven localmente, sin depender de Google Fonts durante la exposición.
+
+Es una muestra visual: no guarda mails, no hay tienda publicada, demo descargable, redes oficiales ni cobros. Esas secciones muestran Próximamente. El press kit sí descarga imágenes y una ficha del proyecto.
+
+## Archivos
+
+- `index.md`: página de entrada con front matter y layout `home`.
+- `_layouts/home.html`: diseño de la landing y rutas procesadas por Jekyll.
+- `assets/css/landing.css`: paleta y estilos adaptados a celulares.
+- `assets/js/landing.js`: menú y galería.
+- `assets/img/game/`: imágenes del PDF del equipo, en WebP.
+- `assets/press-kit.zip`: imágenes y ficha para la muestra.
+- `assets/fonts/`: Cinzel, Crimson Pro y licencias OFL.
+
+## Jekyll y publicación
+
+La portada usa una plantilla local de Jekyll y no depende de un tema remoto. Las rutas de imágenes, estilos, scripts y descarga usan el filtro `relative_url`. La configuración contempla el subdirectorio /el-diablo-y-florentino. Para dominio propio, ajustar url y baseurl.
+
+El presupuesto del PDF menciona Carrd; esta muestra usa el repositorio Jekyll pedido por el equipo. Si se adopta como solución definitiva, revisar ese rubro en futuras versiones del presupuesto.
+
+El material gráfico proviene de la presentación del equipo. La licencia MIT heredada de Agency no otorga derechos sobre las imágenes del juego.
