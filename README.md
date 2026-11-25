@@ -10,7 +10,7 @@ Jekyll procesa `index.md`, aplica la plantilla `_layouts/home.html` y genera `_s
 
 ## Contenido
 
-Portada, juego, capturas ampliables, lore, pacto, comunidad, apoyos, press kit descargable y FAQ. El menú se adapta a celulares y la galería admite teclado y Escape. Las fuentes se sirven localmente, sin depender de Google Fonts durante la exposición.
+Portada, tráiler de YouTube, juego, capturas ampliables, lore, pacto, comunidad, apoyos, press kit descargable y FAQ. El menú se adapta a celulares y la galería admite teclado y Escape. Las fuentes se sirven localmente, sin depender de Google Fonts durante la exposición. El tráiler requiere conexión a Internet y cuenta con enlace directo a YouTube.
 
 Es una muestra visual: no guarda mails, no hay tienda publicada, demo descargable, redes oficiales ni cobros. Esas secciones muestran Próximamente. El press kit sí descarga imágenes y una ficha del proyecto.
 
